@@ -1,6 +1,6 @@
 # react-boilerplate (For own use)
 
-This is a basic isomorphic boilerplate app created based on this link - https://github.com/hawksdoves/ssr-react-node-boilerplate
+This is a basic boilerplate created based on this link - https://esausilva.com/2018/01/13/learn-webpack-for-react
 
 ### install
 
@@ -8,13 +8,8 @@ This is a basic isomorphic boilerplate app created based on this link - https://
 
 ### run in dev
 
-* `npm run build:watch:server` - runs babel to transpile the server from es6 to es5 (watch mode)
-* `npm run build:watch:client` - runs webpack to build bundle (watch mode)
-* `npm run start:dev` - in parallel shells it calls `build:watch:client` `build:watch:server` and then runs the app in watch mode, using nodemon
+* `npm run dev` - run project in development mode
 
 ### prod
 
-* `npm run build:server` - runs babel to transpile the server from es6 to es5 
-* `npm run build:client` - runs webpack to build bundle
-* `npm run build:prod` - builds both client and server
-* `npm run start` - in parallel shells it calls `build:prod` and then runs the app 
+* `npm run build` - build project for production 
